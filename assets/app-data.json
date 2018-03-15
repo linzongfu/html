@@ -1,0 +1,133 @@
+{
+    "app": {
+        "name": "晔兮科技",
+        "enName": "Yes Technology",
+        "description": "Ng-zorro admin panel front-end framework"
+    },
+    "user": {
+        "name": "Eve",
+        "avatar": "./assets/img/zombie.jpg",
+        "email": "948832626@qq.com"
+    },
+    "menu": [
+        {
+            "text": "主导航",
+            "i18n": "main_navigation",
+            "icon": "icon-speedometer",
+            "children": [
+                {
+                    "text": "首页",
+                    "link": "/welcome",
+                    "i18n": "welcome"
+                }
+            ]
+        },
+        {
+            "text": "学生中心",
+            "i18n": "student-center",
+            "acl": 2,
+            "children": [
+                {
+                    "text": "入学测评",
+                    "link": "/student-center/test-center",
+                    "i18n": "test-center",
+                    "reuse": false,
+                    "acl": 3,
+                    "icon": "icon-docs"
+                },
+                {
+                    "text": "专业测试",
+                    "link": "/student-center/professtion-test",
+                    "i18n": "professtion-test",
+                    "reuse": true,
+                    "hide": true,
+                    "icon": "icon-docs"
+                }
+            ]
+        },
+        {
+            "text": "管理",
+            "i18n": "management",
+            "reuse": false,
+            "group": true,
+            "acl": 1,
+            "children": [
+                {
+                    "text": "入学试题管理",
+                    "i18n": "management-entrance-test",
+                    "icon": "icon-speedometer",
+                    "children": [
+                        {
+                            "text": "性格测试",
+                            "i18n": "character-test",
+                            "children": [
+                                {
+                                    "text": "动物性格测试法",
+                                    "link": "/manage-chracter-test/animal-test",
+                                    "i18n": "animal-test"
+                                },
+                                {
+                                    "text": "性格色彩测试法",
+                                    "link": "/manage-chracter-test/color-test",
+                                    "i18n": "color-test"
+                                },
+                                {
+                                    "text": "九型人格测试法",
+                                    "link": "/manage-chracter-test/nine-house-test",
+                                    "i18n": "nine-house-test"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "专业能力测试",
+                            "i18n": "profession-test",
+                            "link": "/manage-chracter-test/color-test"
+                        },
+                        {
+                            "text": "思维能力测试",
+                            "i18n": "thinking-test",
+                            "children": [
+                                {
+                                    "text": "动物性格测试法",
+                                    "link": "/manage-chracter-test/animal-test",
+                                    "i18n": "animal-test"
+                                },
+                                {
+                                    "text": "性格色彩测试法",
+                                    "link": "/manage-chracter-test/color-test",
+                                    "i18n": "color-test"
+                                },
+                                {
+                                    "text": "九型人格测试法",
+                                    "link": "/manage-chracter-test/nine-house-test",
+                                    "i18n": "nine-house-test"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "测评报告",
+                            "i18n": "test-report",
+                            "children": [
+                                {
+                                    "text": "动物性格测试法",
+                                    "link": "/manage-chracter-test/animal-test",
+                                    "i18n": "animal-test"
+                                },
+                                {
+                                    "text": "性格色彩测试法",
+                                    "link": "/manage-chracter-test/color-test",
+                                    "i18n": "color-test"
+                                },
+                                {
+                                    "text": "九型人格测试法",
+                                    "link": "/manage-chracter-test/nine-house-test",
+                                    "i18n": "nine-house-test"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
