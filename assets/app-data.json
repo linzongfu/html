@@ -11,9 +11,8 @@
     },
     "menu": [
         {
-            "text": "主导航",
-            "i18n": "main_navigation",
-            "icon": "icon-speedometer",
+            "text": "常用功能",
+            "i18n": "common-function",
             "children": [
                 {
                     "text": "首页",
@@ -28,20 +27,102 @@
             "acl": 2,
             "children": [
                 {
-                    "text": "入学测评",
+                    "text": "测评中心",
                     "link": "/student-center/test-center",
                     "i18n": "test-center",
                     "reuse": false,
-                    "acl": 3,
-                    "icon": "icon-docs"
+                    "acl": 3
+                },
+                {
+                    "text": "查看作业",
+                    "link": "/student-center/homework-list",
+                    "i18n": "homework-list",
+                    "reuse": false,
+                    "acl": 7
                 },
                 {
                     "text": "专业测试",
                     "link": "/student-center/professtion-test",
                     "i18n": "professtion-test",
                     "reuse": true,
-                    "hide": true,
-                    "icon": "icon-docs"
+                    "hide": true
+                },
+                {
+                    "text": "课表查询",
+                    "link": "/student-center/schedule-select",
+                    "i18n": "schedule-select",
+                    "reuse": false,
+                    "acl": 9
+                },
+                {
+                    "text": "班级投票",
+                    "link": "/student-center/vote",
+                    "i18n": "class-vote",
+                    "reuse": false,
+                    "acl": 9
+                }
+            ]
+        },
+        {
+            "text": "教师中心",
+            "i18n": "teacher-center",
+            "acl": 4,
+            "children": [
+                {
+                    "text": "课堂出勤",
+                    "link": "/teacher-center/class-attendance-record",
+                    "i18n": "class-attendance-record",
+                    "reuse": false,
+                    "acl": 10
+                },
+                {
+                    "text": "作业管理",
+                    "link": "/teacher-center/homework-management",
+                    "i18n": "homework-management",
+                    "reuse": false,
+                    "acl": 11
+                },
+                {
+                    "text": "作业批改",
+                    "link": "/teacher-center/homework-correct",
+                    "i18n": "homework-correct",
+                    "reuse": false,
+                    "acl": 12
+                },
+                {
+                    "text": "任教信息",
+                    "link": "/teacher-center/my-lesson",
+                    "i18n": "teaching-information",
+                    "reuse": false,
+                    "acl": 13
+                },
+                {
+                    "text": "课表查询",
+                    "link": "/student-center/schedule-select",
+                    "i18n": "schedule-select",
+                    "reuse": false,
+                    "acl": 14
+                }
+            ]
+        },
+        {
+            "text": "班级事务",
+            "i18n": "class-bussiness",
+            "acl": 8,
+            "children": [
+                {
+                    "text": "投票管理",
+                    "link": "/class-bussiness/vote-management",
+                    "i18n": "vote-management",
+                    "reuse": false,
+                    "acl": 15
+                },
+                {
+                    "text": "阶段测评",
+                    "link": "/class-bussiness/stage-management",
+                    "i18n": "stage-management",
+                    "reuse": false,
+                    "acl": 16
                 }
             ]
         },
@@ -55,7 +136,6 @@
                 {
                     "text": "入学试题管理",
                     "i18n": "management-entrance-test",
-                    "icon": "icon-speedometer",
                     "children": [
                         {
                             "text": "性格测试",
