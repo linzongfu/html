@@ -11,34 +11,41 @@
     },
     "menu": [
         {
-            "text": "常用功能",
-            "i18n": "common-function",
             "children": [
                 {
                     "text": "首页",
                     "link": "/welcome",
-                    "i18n": "welcome"
-                }
-            ]
-        },
-        {
-            "text": "学生中心",
-            "i18n": "student-center",
-            "acl": 2,
-            "children": [
+                    "i18n": "welcome",
+                    "icon": "icon-graph"
+                },
                 {
+                    "text": "常用功能",
+                    "link": "/common-function/common-function",
+                    "i18n": "common-function",
+                    "icon": "icon-folder"
+                },
+                {
+                    "text": "课表查询",
+                    "link": "/common-function/schedule-select",
+                    "i18n": "schedule-select",
+                    "reuse": false,
+                    "hide": true,
+                    "icon": "icon-speedometer"
+                },{
                     "text": "测评中心",
                     "link": "/student-center/test-center",
                     "i18n": "test-center",
                     "reuse": false,
-                    "acl": 3
+                    "acl": 3,
+                    "icon": "icon-note"
                 },
                 {
                     "text": "查看作业",
                     "link": "/student-center/homework-list",
                     "i18n": "homework-list",
                     "reuse": false,
-                    "acl": 7
+                    "acl": 7,
+                    "icon": "icon-magnifier"
                 },
                 {
                     "text": "专业测试",
@@ -48,164 +55,160 @@
                     "hide": true
                 },
                 {
-                    "text": "课表查询",
-                    "link": "/student-center/schedule-select",
-                    "i18n": "schedule-select",
-                    "reuse": false,
-                    "acl": 9
+                    "text": "阶段测试",
+                    "link": "/student-center/stage-test",
+                    "i18n": "stage-test",
+                    "reuse": true,
+                    "hide": true
                 },
                 {
                     "text": "班级投票",
                     "link": "/student-center/vote",
                     "i18n": "class-vote",
                     "reuse": false,
-                    "acl": 9
-                }
-            ]
-        },
-        {
-            "text": "教师中心",
-            "i18n": "teacher-center",
-            "acl": 4,
-            "children": [
+                    "acl": 9,
+                    "icon": "icon-like"
+                },
+                {
+                    "text": "消息记录",
+                    "link": "/student-center/notice-list",
+                    "i18n": "notice-list",
+                    "reuse": false,
+                    "acl": 21,
+                    "icon": "icon-phone"
+                },
                 {
                     "text": "课堂出勤",
                     "link": "/teacher-center/class-attendance-record",
                     "i18n": "class-attendance-record",
                     "reuse": false,
-                    "acl": 10
+                    "acl": 10,
+                    "icon": "icon-map"
                 },
                 {
                     "text": "作业管理",
                     "link": "/teacher-center/homework-management",
                     "i18n": "homework-management",
                     "reuse": false,
-                    "acl": 11
+                    "acl": 11,
+                    "icon": "icon-equalizer"
                 },
                 {
-                    "text": "作业批改",
+                    "text": "作业查看",
                     "link": "/teacher-center/homework-correct",
                     "i18n": "homework-correct",
                     "reuse": false,
-                    "acl": 12
+                    "acl": 12,
+                    "icon": "icon-magnifier"
                 },
                 {
                     "text": "任教信息",
                     "link": "/teacher-center/my-lesson",
                     "i18n": "teaching-information",
                     "reuse": false,
-                    "acl": 13
-                },
-                {
-                    "text": "课表查询",
-                    "link": "/student-center/schedule-select",
-                    "i18n": "schedule-select",
-                    "reuse": false,
-                    "acl": 14
-                }
-            ]
-        },
-        {
-            "text": "班级事务",
-            "i18n": "class-bussiness",
-            "acl": 8,
-            "children": [
-                {
+                    "acl": 13,
+                    "icon": "icon-film"
+                },{
                     "text": "投票管理",
                     "link": "/class-bussiness/vote-management",
                     "i18n": "vote-management",
                     "reuse": false,
-                    "acl": 15
+                    "acl": 15,
+                    "icon": "icon-equalizer"
                 },
                 {
                     "text": "阶段测评",
                     "link": "/class-bussiness/stage-management",
                     "i18n": "stage-management",
                     "reuse": false,
-                    "acl": 16
-                }
-            ]
-        },
-        {
-            "text": "管理",
-            "i18n": "management",
-            "reuse": false,
-            "group": true,
-            "acl": 1,
-            "children": [
+                    "acl": 16,
+                    "icon": "icon-note"
+                },
                 {
-                    "text": "入学试题管理",
-                    "i18n": "management-entrance-test",
-                    "children": [
-                        {
-                            "text": "性格测试",
-                            "i18n": "character-test",
-                            "children": [
-                                {
-                                    "text": "动物性格测试法",
-                                    "link": "/manage-chracter-test/animal-test",
-                                    "i18n": "animal-test"
-                                },
-                                {
-                                    "text": "性格色彩测试法",
-                                    "link": "/manage-chracter-test/color-test",
-                                    "i18n": "color-test"
-                                },
-                                {
-                                    "text": "九型人格测试法",
-                                    "link": "/manage-chracter-test/nine-house-test",
-                                    "i18n": "nine-house-test"
-                                }
-                            ]
-                        },
-                        {
-                            "text": "专业能力测试",
-                            "i18n": "profession-test",
-                            "link": "/manage-chracter-test/color-test"
-                        },
-                        {
-                            "text": "思维能力测试",
-                            "i18n": "thinking-test",
-                            "children": [
-                                {
-                                    "text": "动物性格测试法",
-                                    "link": "/manage-chracter-test/animal-test",
-                                    "i18n": "animal-test"
-                                },
-                                {
-                                    "text": "性格色彩测试法",
-                                    "link": "/manage-chracter-test/color-test",
-                                    "i18n": "color-test"
-                                },
-                                {
-                                    "text": "九型人格测试法",
-                                    "link": "/manage-chracter-test/nine-house-test",
-                                    "i18n": "nine-house-test"
-                                }
-                            ]
-                        },
-                        {
-                            "text": "测评报告",
-                            "i18n": "test-report",
-                            "children": [
-                                {
-                                    "text": "动物性格测试法",
-                                    "link": "/manage-chracter-test/animal-test",
-                                    "i18n": "animal-test"
-                                },
-                                {
-                                    "text": "性格色彩测试法",
-                                    "link": "/manage-chracter-test/color-test",
-                                    "i18n": "color-test"
-                                },
-                                {
-                                    "text": "九型人格测试法",
-                                    "link": "/manage-chracter-test/nine-house-test",
-                                    "i18n": "nine-house-test"
-                                }
-                            ]
-                        }
-                    ]
+                    "text": "学生管理",
+                    "link": "/class-bussiness/student-management",
+                    "i18n": "student-management",
+                    "reuse": false,
+                    "acl": 18,
+                    "icon": "icon-equalizer"
+                },
+                {
+                    "text": "入学批阅",
+                    "link": "/class-bussiness/enter-correct",
+                    "i18n": "enter-correct",
+                    "reuse": false,
+                    "acl": 19,
+                    "icon": "icon-note"
+                },
+                {
+                    "text": "消息管理",
+                    "link": "/class-bussiness/notice-management",
+                    "i18n": "notice-management",
+                    "reuse": false,
+                    "acl": 20,
+                    "icon": "icon-equalizer"
+                },
+                {
+                    "text": "用户列表",
+                    "link": "/management/user-list",
+                    "i18n": "user-list",
+                    "reuse": false,
+                    "acl": 23,
+                    "icon": "icon-list"
+                },
+                {
+                    "text": "权限管理",
+                    "link": "/management/permit-management",
+                    "i18n": "permit-management",
+                    "reuse": false,
+                    "acl": 24,
+                    "icon": "icon-pin"
+                },
+                {
+                    "text": "角色管理",
+                    "link": "/management/role-list",
+                    "i18n": "role-management",
+                    "reuse": false,
+                    "acl": 25,
+                    "icon": "icon-user"
+                },
+                {
+                    "text": "查看日志",
+                    "link": "/management/log-index",
+                    "i18n": "log-index",
+                    "reuse": false,
+                    "acl": 26,
+                    "icon": "icon-hourglass"
+                },
+                {
+                    "text": "阶段规则",
+                    "link": "/management/stage-rule",
+                    "i18n": "stage-rule",
+                    "reuse": false,
+                    "acl": 27,
+                    "icon": "icon-equalizer"
+                },
+                {
+                    "text": "反馈列表",
+                    "link": "/management/feedback-index",
+                    "i18n": "feedback-index",
+                    "reuse": false,
+                    "acl": 28,
+                    "icon": "icon-speech"
+                },{
+                    "text": "报告中心",
+                    "link": "/student-center/report",
+                    "i18n": "report-center",
+                    "reuse": false,
+                    "acl": 29,
+                    "icon": "icon-speech"
+                },
+                {
+                    "text": "首页",
+                    "link": "/common-function/index",
+                    "i18n": "welcome",
+                    "reuse": false,
+                    "hide": true
                 }
             ]
         }
