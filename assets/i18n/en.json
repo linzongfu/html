@@ -280,5 +280,20 @@
     "entrace-report":"Entrace Report",
     "stage-report":"Stage Report",
     "graduation-report":"Graduation Report",
-    "report-detail":"Report Detail"
+    "report-detail":"Report Detail",
+    "stage-evaluation":"Stage Evaluation",
+    "stage-test":"Stage Test",
+    "stage-test-small":"Test the current stage of learning, so as to adjust the future learning state and direction",
+    "question-management":"Question Management",
+    "label-management":"Label Management",
+    "report-management":"Report Management",
+    "profession-management":"Profession Management",
+    "class-management":"Class Management",
+    "event-management":"Event Management",
+    "stage-check":"Stage Check",
+    "guatuation-management":"Guatuation Management",
+    "test-rule":"Test Rule",
+    "study-mode":"Study Mode",
+    "weight-rate":"Weight Rate",
+    "report-rule":"Report Rule"
 }

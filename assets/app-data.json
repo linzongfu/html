@@ -40,7 +40,7 @@
                     "icon": "icon-note"
                 },
                 {
-                    "text": "查看作业",
+                    "text": "作业中心",
                     "link": "/student-center/homework-list",
                     "i18n": "homework-list",
                     "reuse": false,
@@ -181,7 +181,7 @@
                     "icon": "icon-hourglass"
                 },
                 {
-                    "text": "阶段规则",
+                    "text": "参数管理",
                     "link": "/management/stage-rule",
                     "i18n": "stage-rule",
                     "reuse": false,
@@ -209,6 +209,62 @@
                     "i18n": "welcome",
                     "reuse": false,
                     "hide": true
+                },{
+                    "text": "题库管理",
+                    "link": "/a/b",
+                    "i18n": "question-management",
+                    "reuse": false,
+                    "acl": 30,
+                    "icon": "icon-question"
+                },{
+                    "text": "标签管理",
+                    "link": "/a/b",
+                    "i18n": "label-management",
+                    "reuse": false,
+                    "acl": 31,
+                    "icon": "icon-bulb"
+                },{
+                    "text": "报告管理",
+                    "link": "/a/b",
+                    "i18n": "report-management",
+                    "reuse": false,
+                    "acl": 32,
+                    "icon": "icon-book-open"
+                },{
+                    "text": "专业管理",
+                    "link": "/a/b",
+                    "i18n": "profession-management",
+                    "reuse": false,
+                    "acl": 33,
+                    "icon": "icon-bag"
+                },{
+                    "text": "班级管理",
+                    "link": "/a/b",
+                    "i18n": "class-management",
+                    "reuse": false,
+                    "acl": 34,
+                    "icon": "icon-people"
+                },{
+                    "text": "奖惩管理",
+                    "link": "/a/b",
+                    "i18n": "event-management",
+                    "reuse": false,
+                    "acl": 35,
+                    "icon": "icon-badge"
+                },{
+                    "text": "阶段审阅",
+                    "link": "/a/b",
+                    "i18n": "stage-check",
+                    "reuse": false,
+                    "acl": 36,
+                    "icon": "icon-bell"
+                },{
+                    "text": "毕业生管理",
+                    "link": "/a/b",
+                    "i18n": "guatuation-management",
+                    "reuse": false,
+                    "acl": 37,
+                    "icon": "icon-puzzle"
                 }
             ]
         }
