@@ -196,6 +196,20 @@
                     "acl": 28,
                     "icon": "icon-speech"
                 },{
+                    "text": "报告管理",
+                    "link": "/management/report-index",
+                    "i18n": "report-management",
+                    "reuse": false,
+                    "acl": 32,
+                    "icon": "icon-book-open"
+                },{
+                    "text": "培养模式",
+                    "link": "/management/education-plan-list",
+                    "i18n": "education-plan",
+                    "reuse": false,
+                    "acl": 38,
+                    "icon": "icon-book-open"
+                },{
                     "text": "报告中心",
                     "link": "/student-center/report",
                     "i18n": "report-center",
@@ -223,13 +237,6 @@
                     "reuse": false,
                     "acl": 31,
                     "icon": "icon-bulb"
-                },{
-                    "text": "报告管理",
-                    "link": "/a/b",
-                    "i18n": "report-management",
-                    "reuse": false,
-                    "acl": 32,
-                    "icon": "icon-book-open"
                 },{
                     "text": "专业管理",
                     "link": "/a/b",
