@@ -223,55 +223,6 @@
                     "i18n": "welcome",
                     "reuse": false,
                     "hide": true
-                },{
-                    "text": "题库管理",
-                    "link": "/a/b",
-                    "i18n": "question-management",
-                    "reuse": false,
-                    "acl": 30,
-                    "icon": "icon-question"
-                },{
-                    "text": "标签管理",
-                    "link": "/a/b",
-                    "i18n": "label-management",
-                    "reuse": false,
-                    "acl": 31,
-                    "icon": "icon-bulb"
-                },{
-                    "text": "专业管理",
-                    "link": "/a/b",
-                    "i18n": "profession-management",
-                    "reuse": false,
-                    "acl": 33,
-                    "icon": "icon-bag"
-                },{
-                    "text": "班级管理",
-                    "link": "/a/b",
-                    "i18n": "class-management",
-                    "reuse": false,
-                    "acl": 34,
-                    "icon": "icon-people"
-                },{
-                    "text": "奖惩管理",
-                    "link": "/a/b",
-                    "i18n": "event-management",
-                    "reuse": false,
-                    "acl": 35,
-                    "icon": "icon-badge"
-                },{
-                    "text": "阶段审阅",
-                    "link": "/a/b",
-                    "i18n": "stage-check",
-                    "reuse": false,
-                    "acl": 36,
-                    "icon": "icon-bell"
-                },{
-                    "text": "毕业生管理",
-                    "link": "/a/b",
-                    "i18n": "guatuation-management",
-                    "reuse": false,
-                    "acl": 37,
-                    "icon": "icon-puzzle"
                 }
             ]
         }
